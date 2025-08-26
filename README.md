@@ -9,7 +9,7 @@ This project presents a comprehensive analysis of Netflix’s catalog of movies 
 3. Examine content trends with respect to release years, countries of origin, and durations
 4. Categorize and explore content based on defined criteria and relevant keywords
 
-## Datasets
+## Datasets (Over #8000 datas)
 This data is sourced from Kaggle
 Data Set : [Kaggle link](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
 ## Schemas
