@@ -1,0 +1,17 @@
+## Schemas
+create TABLE netflix (
+	show_id varchar(6) NULL,
+	"type" varchar(10) NULL,
+	title varchar(150) NULL,
+	director varchar(208) NULL,
+	"cast" varchar(1000) NULL,
+	country varchar(150) NULL,
+	date_added varchar(50) NULL,
+	release_year int4 NULL,
+	rating varchar(10) NULL,
+	duration varchar(15) NULL,
+	listed_in varchar(100) NULL,
+	description varchar(250) NULL
+);
+
+To manage memory more effectively, I first determined the maximum string length for each column and then set an appropriate VARCHAR size based on that value
