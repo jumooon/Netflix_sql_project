@@ -1,4 +1,4 @@
-# Netflix Movies and TV shows Data Analysis using Postgresql
+# Netflix Movies and TV shows Data Analysis using PostgreSQL
 ![Netflix logo](https://github.com/jumooon/Netflix_sql_project/blob/main/logo.png)
 ## Overview
 This project presents a comprehensive analysis of Netflix’s catalog of movies and television shows using SQL. The primary aim is to investigate the dataset in order to extract meaningful insights and address a series of business-oriented questions regarding Netflix’s content distribution and characteristics.
@@ -28,7 +28,7 @@ create TABLE netflix (
 );
 ```
 ## Business problems and solutions
-1.Count the number of Movies vs TV Shows
+1. Count the number of Movies vs TV Shows
 ```sql
 select
 distinct type
@@ -129,7 +129,7 @@ group by 1
 order by 2 desc
 limit 10;
 ```
-15.Categorize the content based on the presence of the keywords 'kill' and 'violence' in 
+15. Categorize the content based on the presence of the keywords 'kill' and 'violence' in 
 the description field. Label content containing these keywords as 'Bad' and all other 
 content as 'Good'. Count how many items fall into each category.
 ```sql
